@@ -1,0 +1,153 @@
+/* core values: adventure, imagination, learning  */
+/* color palette: teal-#226666 lavender-#887CAF yellow-#D4B16A */
+
+
+h1 {
+  font-family: 'Pompiere', 'cursive';
+  font-size: 60pt;
+  color: #226666;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Pompiere', 'cursive';
+  font-size: 15pt;
+  color: #226666;
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Times', 'serif';
+  font-size: 9pt;
+  color: #226666;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Pompiere', 'cursive';
+  font-size: 30pt;
+  color: #226666;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+p {
+  font-family: 'Times', 'serif';
+  font-size: 12pt;
+  color: #226666;
+  margin: 10px;
+}
+
+nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  background-color: #eada9b;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+
+a {
+  /* get rid on underline on link */
+  text-decoration: none;
+}
+
+li {
+  font-family: 'Lato', 'sans serif';
+  font-size: 12pt;
+  color: #226666;
+  margin: 10px;
+  line-height: 70%;
+}
+
+.full {
+  /* full screen margins */
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.navComp {
+  /* each component of navigation */
+  font-family: 'Pompiere', 'cursive';
+  font-size: 15pt;
+  padding-left: 45px;
+  padding-right: 45px;
+  text-decoration: none;
+  color: #226666;
+}
+
+.category {
+  /* content */
+  width: 25%;
+  height: 30%;
+  display: inline-block;
+  vertical-align: center;
+  justify-content: center;
+  align-items: center;
+  /* padding */
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 25px;
+  /* border */
+  border-radius: 20px;
+  background-color: #eada9b;
+  /* margin */
+  margin: 10px;
+}
+
+.pic {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.cinderella {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.descrip {
+  margin-bottom: 25px;
+}
+
+.fifty1 {
+  width: 37%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.fifty2 {
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  align-content: center;
+}
+
+.fifty3 {
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.fifty4 {
+  display: inline-block;
+  width: 79%;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+ .smallPic {
+   width: 22%;
+   display: inline-block;
+ }
