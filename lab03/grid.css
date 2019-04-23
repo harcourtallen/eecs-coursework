@@ -1,0 +1,200 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+     "menu1 . menu2 menu2"
+     "card1 card2 card3 aside"
+     "main main main aside"
+     ;
+  min-height: 100vh;
+}
+.menu1 {
+  grid-area: menu1;
+}
+.menu1 div {
+  background-color: hotpink;
+  height: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+.menu2 {
+  grid-area: menu2;
+}
+.menu2 div {
+  background-color: yellow;
+  height: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+.card1 {
+  grid-area: card1;
+}
+.card2 {
+  grid-area: card2;
+}
+.card3 {
+  grid-area: card3;
+}
+.card1 section, .card2 section, .card3 section {
+  background-color: lightblue;
+  height: 70%;
+  padding: 20px;
+  margin: 20px;
+}
+.main {
+  grid-area: main;
+}
+.main section {
+  background-color: lightblue;
+  height: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+.aside {
+  grid-area: aside;
+}
+.aside section {
+  height: 100%;
+  background-color: gray;
+  padding: 20px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 500px){
+   /* tablet layout here */
+   .container {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     grid-template-rows: auto;
+     grid-template-areas:
+        "menu1 . menu2 menu2"
+        "aside aside aside aside"
+        "card1 card1 card2 card2"
+        "card3 card3 card3 card3"
+        "main main main main"
+        ;
+     min-height: 100vh;
+   }
+   .menu1 {
+     grid-area: menu1;
+   }
+   .menu1 div {
+     background-color: hotpink;
+     height: 50%;
+     padding: 20px;
+     margin: 20px;
+   }
+   .menu2 {
+     grid-area: menu2;
+   }
+   .menu2 div {
+     background-color: yellow;
+     height: 50%;
+     padding: 20px;
+     margin: 20px;
+   }
+   .card1 {
+     grid-area: card1;
+   }
+   .card2 {
+     grid-area: card2;
+   }
+   .card3 {
+     grid-area: card3;
+   }
+   .card1 section, .card2 section, .card3 section {
+     background-color: lightblue;
+     height: 50%;
+     padding: 20px;
+     margin: 20px;
+   }
+   .main {
+     grid-area: main;
+   }
+   .main section {
+     background-color: lightblue;
+     height: 50%;
+     padding: 20px;
+     margin: 20px;
+   }
+   .aside {
+     grid-area: aside;
+   }
+   .aside section {
+     height: 50%;
+     background-color: gray;
+     padding: 20px;
+     margin: 20px;
+   }
+}
+
+@media only screen and (max-width: 510px) and (min-width: 100px){
+  /* mobile layout */
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+       "menu1 ."
+       "menu2 menu2"
+       "aside aside"
+       "card1 card1"
+       "card2 card2"
+       "card3 card3"
+       "main main"
+       ;
+    min-height: 100vh;
+  }
+  .menu1 {
+    grid-area: menu1;
+  }
+  .menu1 div {
+    background-color: hotpink;
+    height: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+  .menu2 {
+    grid-area: menu2;
+  }
+  .menu2 div {
+    background-color: yellow;
+    height: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+  .card1 {
+    grid-area: card1;
+  }
+  .card2 {
+    grid-area: card2;
+  }
+  .card3 {
+    grid-area: card3;
+  }
+  .card1 section, .card2 section, .card3 section {
+    background-color: lightblue;
+    height: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+  .main {
+    grid-area: main;
+  }
+  .main section {
+    background-color: lightblue;
+    height: 50%;
+    padding: 20px;
+    margin: 20px;
+  }
+  .aside {
+    grid-area: aside;
+  }
+  .aside section {
+    height: 50%;
+    background-color: gray;
+    padding: 20px;
+    margin: 20px;
+  }
+}
