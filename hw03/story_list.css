@@ -1,0 +1,329 @@
+/*  dark 233053 tan C6B696 pale CBD0C6 teal 526D78*/
+
+
+h1 {
+  font-family: 'Bad Script', 'cursive';
+  font-size: 50pt;
+  color: #233053;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 35px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: 'Bad Script', 'cursive';
+  font-size: 13pt;
+  color: #C6B696;
+  text-align: center;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'EB Garamond', 'serif';
+  font-size: 9pt;
+  color: #C6B696;
+  text-align: center;
+}
+
+h4 {
+  font-family: 'Bad Script', 'cursive';
+  font-size: 30pt;
+  color: #233053;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+h5 {
+  font-family: 'EB Garamond', 'serif;';
+  font-size: 12pt;
+  color: #C6B696;
+  margin: 10px;
+  text-align: left;
+}
+
+p {
+  font-family: 'EB Garamond', 'serif;';
+  font-size: 12pt;
+  color: #233053;
+  margin: 10px;
+  text-align: left;
+}
+
+a {
+  /* get rid on underline on link */
+  text-decoration: none;
+}
+
+.container {
+  background-color: #CBD0C6;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "nav"
+    "header"
+    "options"
+  ;
+}
+
+.nav {
+  grid-area: nav;
+}
+
+.nav div {
+  display: inline-block;
+  text-align: center;
+  margin: 7px;
+  font-family: 'Bad Script', 'cursive';
+  font-size: 12pt;
+  color: #233053;
+}
+
+.header {
+  grid-area: header;
+  margin: 20px;
+}
+
+.options {
+  grid-area: options;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.options div {
+  background-color: #233053;
+  box-sizing: border-box;
+  width: 32%;
+  height: 100%;
+  padding: 15px;
+  margin: 5px;
+}
+
+.pic {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 650px){
+  h1 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 30pt;
+    color: #233053;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 35px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 13pt;
+    color: #C6B696;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h3 {
+    font-family: 'EB Garamond', 'serif';
+    font-size: 9pt;
+    color: #C6B696;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 30pt;
+    color: #233053;
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+  h5 {
+    font-family: 'EB Garamond', 'serif;';
+    font-size: 12pt;
+    color: #C6B696;
+    margin: 10px;
+    text-align: left;
+  }
+
+  p {
+    font-family: 'EB Garamond', 'serif;';
+    font-size: 12pt;
+    color: #233053;
+    margin: 10px;
+    text-align: left;
+  }
+  a {
+    /* get rid on underline on link */
+    text-decoration: none;
+  }
+
+  .container {
+    background-color: #CBD0C6;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "nav"
+      "header"
+      "options"
+    ;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+
+  .nav div {
+    display: inline-block;
+    text-align: center;
+    margin: 7px;
+    font-family: 'Bad Script', 'cursive';
+    font-size: 12pt;
+    color: #233053;
+  }
+
+  .header {
+    grid-area: header;
+    margin: 20px;
+  }
+
+  .features {
+    grid-area: features;
+  }
+
+  .features {
+    background-color: #526D78;
+    height: 100%;
+    padding: 15px;
+    margin: 5px;
+    margin-right: 15px;
+  }
+
+  .options {
+    grid-area: options;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .options div {
+    background-color: #233053;
+    box-sizing: border-box;
+    width: 48%;
+    height: 100%;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .pic {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 660px) and (min-width: 100px){
+  h1 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 30pt;
+    color: #233053;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px;
+  }
+
+  h2 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 13pt;
+    color: #C6B696;
+    text-align: center;
+    margin: 10px;
+  }
+
+  h3 {
+    font-family: 'EB Garamond', 'serif';
+    font-size: 9pt;
+    color: #C6B696;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: 'Bad Script', 'cursive';
+    font-size: 30pt;
+    color: #C6B696;
+    margin: 10px;
+    margin-top: 30px;
+  }
+
+  p {
+    font-family: 'EB Garamond', 'serif;''
+    font-size: 12pt;
+    color: #233053;
+    margin: 10px;
+    text-align: left;
+  }
+
+  a {
+    /* get rid on underline on link */
+    text-decoration: none;
+  }
+
+  .container {
+    background-color: #CBD0C6;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "nav"
+      "header"
+      "options"
+    ;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+
+  .nav div {
+    display: inline-block;
+    text-align: center;
+    margin: 5px;
+    font-family: 'Bad Script', 'cursive';
+    font-size: 9pt;
+    color: #233053;
+  }
+
+  .header {
+    grid-area: header;
+    margin: 20px;
+  }
+
+  .features {
+    grid-area: features;
+  }
+
+  .features {
+    background-color: #526D78;
+    height: 95%;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .options {
+    grid-area: options;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .options div {
+    background-color: #233053;
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    margin: 5px;
+  }
+
+  .pic {
+    width: 100%;
+  }
+
+
+}
