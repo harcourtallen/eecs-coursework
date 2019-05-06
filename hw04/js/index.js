@@ -19,28 +19,32 @@ const close = () => {
 }
 document.querySelector('.close').onclick = close;
 
-// PART 4: NEED HELP
-//var nextt = imgURL.nextSiblingElement;
-//var prevv = imgURL.previousSiblingElement;
+// PART 4: this doesn't work and i was gone all week sat-following sun so no office hours
+
+
+var result = document.getElementsByClassName('featured_image');
+var nextt = result.nextSiblingElement;
 
 const next = (e) => {
   const clickedElement = e.target;
   const imgURL = clickedElement.style.backgroundImage;
   console.log(imgURL);
-  //document.querySelector('.featured_image').style.backgroundImage = nextt;
-  document.querySelector('.featured_image').style.backgroundImage = imgURL.nextSiblingElement;
+  document.querySelector('.featured_image').style.backgroundImage = imgURL.nextt;
+  //document.querySelector('.featured_image').style.backgroundImage = imgURL.nextSiblingElement;
 }
 document.querySelector('.next').onclick = next;
 document.querySelector('.featured_image').onclick = next;
 
 
 // PART 5:
+var prevv = result.previousSiblingElement;
+
 const previous = (e) => {
   const clickedElement = e.target;
   const imgURL = clickedElement.style.backgroundImage;
   console.log(imgURL);
-  //document.querySelector('.featured_image').style.backgroundImage = prevv;
-  document.querySelector('.featured_image').style.backgroundImage = imgURL.previousSiblingElement;
+  document.querySelector('.featured_image').style.backgroundImage = imgURL.prevv;
+  //document.querySelector('.featured_image').style.backgroundImage = imgURL.previousSiblingElement;
 }
 document.querySelector('.prev').onclick = previous;
 
