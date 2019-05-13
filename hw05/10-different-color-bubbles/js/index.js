@@ -37,14 +37,19 @@ const colors = [
 //choose a color randomly
 //
 
-// var i = 0;
-// while (i < 200) {
-//   for (j = 0; j < colors.length; i++) {
-//     makeBubble(colors[j]);
-//   }
+var i;
 
-
+for (i = 0; i <200; i++) {
+  makeBubble(colors[random(0, colors.length)])
 }
+// var j=0;
+// while (j<200) {
+//   for (color of colors) {
+//   makeBubble(color)
+// }
+// }
+
+
 // makeBubble(colors[3])
 // makeBubble(colors[1])
 // makeBubble(colors[4])

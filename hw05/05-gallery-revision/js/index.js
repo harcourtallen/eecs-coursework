@@ -37,10 +37,11 @@
 
 const loadCards = (photos) => {
   console.log(photos);
-  for (i = 0; i < photos.length; i++) {
+  //for (i = 0; i < photos.length; i++) {
+  for (photo of photos) {
     let template = `
       <li class="card">
-        <div class="image" style="background-image:url('${photos[i]}')"></div>
+        <div class="image" style="background-image:url('${photo}')"></div>
       </li>
     `;
     document.querySelector('.cards').innerHTML += template;

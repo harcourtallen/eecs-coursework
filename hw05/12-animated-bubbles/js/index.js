@@ -42,31 +42,21 @@ const colors = [
 // indeterminate loop (doing something for n-times):
 // creates all of the bubbles:
 const createBubbles = (numBubbles) => {
-    console.log('you should actually create', numBubbles, 'bubbles.')
+
     const bubbles = [];
-      for (i = 0; i < numBubbles.length; i++)
-      bubble = makeBubble(colors[random(0, colors.length)]);
+    let index = 0;
+    while (index < numBubbles) {
+      const bubble = makeBubble(colors[random(0, colors.length)]);
       bubbles.push(bubble);
-
-    // const bubble1 = makeBubble(colors[random(0, colors.length)]);
-    // bubbles.push(bubble1);
-    //
-    // const bubble2 = makeBubble(colors[random(0, colors.length)]);
-    // bubbles.push(bubble2);
-    //
-    // const bubble3 = makeBubble(colors[random(0, colors.length)]);
-    // bubbles.push(bubble3);
-    //
-    // const bubble4 = makeBubble(colors[random(0, colors.length)]);
-    // bubbles.push(bubble4);
-
+      index +=1;
+    }
     return bubbles;
 }
 
-const bubbles = createBubbles(100);
+const bubbles = createBubbles(200);
 
 // animation loop (moves all the bubbles):
 view.onFrame = (event) => {
-  for (bubble of bubbles)
-    moveBubble(bubble);
+  for (bub of bubbles)
+    moveBubble(bub);
 };
