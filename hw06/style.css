@@ -1,0 +1,98 @@
+.title {
+  display: inline-block;
+  margin: 10px;
+}
+.logo {
+  width: 100px;
+  display: inline-block;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+h1, h2 {
+  font-size: 70pt;
+  color: black;
+  display: inline-block;
+  margin: 10px;
+}
+p {
+  display: inline-block;
+  font-family: 'Poppins', serif;
+  font-size: 10pt;
+}
+.image {
+  width: 150px;
+  display: inline-block;
+}
+
+.song {
+  display: inline-block;
+  background-color: #1db954;
+  margin: 20px;
+  padding: 15px;
+}
+
+.vid {
+  display: inline-block;
+  background-color: white;
+  border: solid red 5px;
+  margin: 20px;
+  padding: 15px;
+  width: 50%;
+}
+
+body {
+    margin-left: 60px;
+    margin-right: 60px;
+    font-size: 1.2em;
+	  background-color: #A8A8A8;
+
+}
+body * {
+	box-sizing: border-box;
+}
+
+input, button {
+    font-size: 1.2em;
+    color: #555;
+}
+input {
+    width: 400px;
+    padding: 5px 5px;
+    transition: all 0.30s ease-in-out;
+	outline: none;
+	background: #fff;
+	border: 1px solid #ccc;
+  display: inline-block;
+}
+input:focus {
+    box-shadow: 0 0 5px #ff0084;
+	border: 1px solid #ff0084;
+}
+button {
+    padding: 5px 15px;
+    background: white;
+    box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    background: gray;
+    border-radius: 3px;
+    border-color: transparent;
+	color: #fff;
+  display: inline-block;
+}
+button:hover {
+    background: darkgray;
+}
+
+#output {
+    background-color: #696969;;
+    margin-top: 20px;
+    min-height: 70vh;
+    padding: 10px;
+}
