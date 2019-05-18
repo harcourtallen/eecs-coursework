@@ -1,0 +1,124 @@
+h1 {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 150px;
+  font-style: italic;
+  color: white;
+  text-shadow: 3px 3px 8px gray;
+  margin: 0;
+  padding: 0;
+
+}
+h2 {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+h4 {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 18px;
+}
+
+
+.menu {
+  padding: 10px;
+  float: right;
+  background-color: white;
+}
+
+.menu_item {
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.logo {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-shadow: 3px 3px 8px gray;
+  margin: 0;
+  padding: 0;
+}
+
+.titl {
+  text-align: center;
+  padding: 30px;
+  padding-top: 200px;
+}
+
+.container {
+  margin-left: 6%;
+  margin-right: 6%;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a a"
+    "b c"
+  ;
+}
+
+.new_rel {
+  grid-area: a;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 3px 3px 8px gray;
+}
+
+.nr_pix {
+
+}
+
+.nr_img {
+  width: 120px;
+}
+
+.top_chart {
+  grid-area: b;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 3px 3px 8px gray;
+}
+
+.item {
+
+}
+
+.tc_img {
+  width: 120px;
+  display: inline-block;
+}
+
+.tc_info {
+  display: inline-block;
+}
+
+.news_feed {
+  grid-area: c;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 3px 3px 8px gray;
+}
+
+.story {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nf_img {
+  width: 100%;
+  height: 200px;
+}
+
+.footer {
+
+}
