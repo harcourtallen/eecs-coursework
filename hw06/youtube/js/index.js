@@ -11,7 +11,7 @@ const displayResults = (data) => {
     for (data_p of data) {
       let template = `
       <div class="vid">
-        <iframe src="${data_p.url}"></iframe>
+        <iframe width="400" height="300" src="${data_p.url}"></iframe>
         <p>${data_p.title}</p>
       </div>
         `;
