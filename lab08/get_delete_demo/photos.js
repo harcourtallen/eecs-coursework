@@ -1,4 +1,4 @@
-const myAPIEndpoint = 'https://harcourt-api.herokuapp.com/posts';
+const myAPIEndpoint = 'https://harcourt-api.herokuapp.com/photos';
 
 const getData = () => {
     fetch(myAPIEndpoint)
@@ -14,13 +14,13 @@ const getData = () => {
         });
 };
 
-const generateEntryHTML = (post) => {
+const generateEntryHTML = (photo) => {
     return `
     <div class="card">
-        <h2>${post.url}</h2>
-        <p>${post.caption}</p>
+        <img src="${photo.url}" />
+        <p>${photo.caption}</p>
         <p>
-            <a data-id="${post.id}" href="#" class="delete">delete</a>
+            <a data-id="${photo.id}" href="#" class="delete">delete</a>
         </p>
     </div>
     `;
