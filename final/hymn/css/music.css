@@ -68,19 +68,36 @@ a {
   margin-right: 6%;
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "a a"
-    "b c"
+    "a b c"
+    "d d d"
+    "e e e"
+    "f f f"
   ;
 }
 
-.new_rel {
+.name {
   grid-area: a;
   padding: 30px;
   margin: 30px;
-  box-shadow: 0px 0px 8px gray;
+}
+.view1 {
+  grid-area: b;
+  padding: 30px;
+  margin: 30px;
+}
+.view2 {
+  grid-area: c;
+  padding: 30px;
+  margin: 30px;
+}
+
+.selected {
+  padding: 15px;
+  background-color: #92064c;
+  color: white;
 }
 
 .nr_pix {
@@ -92,8 +109,22 @@ a {
   height: 120px;
 }
 
-.top_chart {
-  grid-area: b;
+.popular {
+  grid-area: d;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 0px 8px gray;
+}
+
+.suggest {
+  grid-area: e;
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 0px 8px gray;
+}
+
+.genre {
+  grid-area: f;
   padding: 30px;
   margin: 30px;
   box-shadow: 0px 0px 8px gray;
