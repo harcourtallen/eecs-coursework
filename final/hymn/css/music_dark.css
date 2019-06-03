@@ -1,19 +1,13 @@
-.h_title {
-  font-family: 'Dosis', sans-serif;
-  font-size: 150px;
-  font-style: italic;
-  color: white;
-  text-shadow: 3px 3px 8px gray;
-  margin: 0;
-  padding: 0;
-}
 .h_one {
   font-family: 'Dosis', sans-serif;
   font-size: 150px;
+  font-style: italic;
+  text-transform: uppercase;
   color: white;
   text-shadow: 3px 3px 8px gray;
   margin: 0;
   padding: 0;
+
 }
 .h_two {
   font-family: 'Dosis', sans-serif;
@@ -21,7 +15,7 @@
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
 }
 .h_three {
   font-family: 'Dosis', sans-serif;
@@ -30,11 +24,12 @@
   display: inline;
   padding-left: 30px;
   padding-right: 30px;
-  color: black;
+  color: white;
 }
 .h_four {
   font-family: 'Dosis', sans-serif;
   font-size: 18px;
+  color: white;
 }
 .h_five {
   font-family: 'Dosis', sans-serif;
@@ -42,7 +37,7 @@
   font-weight: bold;
   margin: 0;
   padding: 0;
-  color: black;
+  color: white;
 }
 a {
   text-decoration: none;
@@ -50,6 +45,7 @@ a {
 
 .menu {
   padding: 10px;
+  background-color: #696969;
   float: right;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   width: 100%;
@@ -78,43 +74,61 @@ a {
   padding-top: 200px;
 }
 
-.caro_img {
-  width: 100%;
-  height: 600px;
-  opacity: 0.6;
-}
-
-
-
-.contain {
+.view_change {
   margin-left: 3%;
   margin-right: 3%;
   margin-top: 15px;
-  background-color: white;
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   grid-template-areas:
-    "a a"
-    "b c"
+    "a b c"
   ;
 }
 
-.new_rel {
+.name {
   grid-area: a;
-  padding: 15px;
-  margin: 15px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 30px;
+  margin: 30px;
+}
+.view1 {
+  grid-area: b;
+  padding: 30px;
+  margin: 30px;
+}
+.view2 {
+  grid-area: c;
+  padding: 30px;
+  margin: 30px;
 }
 
-.scrolling {
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+.selected {
+  padding: 15px;
+  background-color: #92064c;
+  color: white;
+}
+
+.contain_mu {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "d d"
+    "e e"
+    "f f"
+  ;
+}
+
+.full {
+  background-color: #2e2e2e;
+  margin-top: 0;
 }
 
 .nr_pix {
-
+  margin-top: 10px;
 }
 
 .nr_img {
@@ -122,63 +136,72 @@ a {
   height: 120px;
   margin: 10px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
 }
 
-.top_chart {
-  grid-area: b;
+.popular {
+  grid-area: d;
   padding: 15px;
   margin: 15px;
+  background-color: #696969;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
+  }
+
+.suggest {
+  grid-area: e;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+.genre {
+  grid-area: f;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  }
+
+.scrolling {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+
 
 .item {
   margin-top: 5px;
   margin-bottom: 5px;
-  justify-content: center;
-
 }
 
 .tc_img {
-  width: 50%;
+  width: 120px;
   display: inline-block;
   vertical-align: bottom;
-  margin: 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-
 
 }
 
 .tc_info {
   display: inline-block;
   vertical-align: bottom;
-  margin: 10px;
 
 }
 
 .news_feed {
   grid-area: c;
-  padding: 15px;
-  margin: 15px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 30px;
+  margin: 30px;
+  box-shadow: 0px 0px 8px gray;
 }
 
-/* .story {
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+.story {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 
 .nf_img {
-  width: 95%;
-  height: 10%;
-  margin: 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
-
-.nf_cap {
-  margin-left: 10px;
-  margin-right: 10px;
-  margin-bottom: 10px;
+  width: 100%;
+  height: 200px;
 }
 
 .footer {

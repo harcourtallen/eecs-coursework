@@ -3,69 +3,74 @@
     <head>
         <meta charset="utf-8">
         <title>hymn.</title>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/index_dark.css">
         <link href="https://fonts.googleapis.com/css?family=Cabin+Condensed|Dosis|Rajdhani&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
-    <body>
+    <body class="full">
 
-      <div class="menu"> <!-- header menu top of all pages-->
-        <a href="search.html"><h3 class="menu_item">Search</h3></a>
-        <a href="music.html"><h3 class="menu_item">Music</h3></a>
-        <a href="news.html"><h3 class="menu_item">News</h3></a>
-        <a href="foryou.html"><h3 class="menu_item">For You</h3></a>
-        <a href="account.html"><h3 class="menu_item">Account</h3></a>
+<!-- header menu top of all pages-->
+      <div class="menu">
+            <a href="search.html"><div class="h_three">Search</div></a>
+            <a href="music_song.html"><div class="h_three">Music</div></a>
+            <a href="news_foryou.html"><div class="h_three">News</div></a>
+            <a href="foryou.html"><div class="h_three">For You</div></a>
+            <a href="account.html"><div class="h_three">Account</div></a>
       </div>
 
+
+<!-- carousel slider -->
       <div class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
           </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="caro_img" src="bey.jpg">
-            <div class="carousel-caption">
-              <h1>hymn</h1>
-            </div>
+          <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="caro_img" src="bey.jpg">
+                <div class="carousel-caption">
+                  <div class="h_title">hymn</div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="caro_img" src="young.png">
+                <div class="carousel-caption">
+                  <div class="h_title">hymn</div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="caro_img" src="tswift.jpg">
+                <div class="carousel-caption">
+                  <div class="h_title">hymn</div>
+                </div>
+              </div>
           </div>
-          <div class="carousel-item">
-            <img class="caro_img" src="young.png">
-            <div class="carousel-caption">
-              <h1>hymn</h1>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="caro_img" src="tswift.jpg">
-            <div class="carousel-caption">
-              <h1>hymn</h1>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-        <!-- <a class="left carousel-control-prev" href="#caro" data-slide="prev">
-          <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="right carousel-control-next" href="#caro" data-slide="next">
-          <span class="glyphicon glyphicon-chevron-right"></span>
-        </a> -->
+          <!-- <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a> -->
       </div>
 
+<!-- actual content-->
+      <div class="contain_in">
 
-
-      <div class="container">
+      <!-- new release section -->
         <div class="new_rel">
-          <h2>New Releases</h2>
-          <div class="nr_pix">
+          <div class="h_two">New Releases</div>
+          <div class="nr_pix scrolling">
+            <img class="nr_img" src="1.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="2.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="3.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="4.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="5.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="6.jpg" alt="Florence and The Machine">
+            <img class="nr_img" src="7.jpg" alt="Florence and The Machine">
             <img class="nr_img" src="1.jpg" alt="Florence and The Machine">
             <img class="nr_img" src="2.jpg" alt="Florence and The Machine">
             <img class="nr_img" src="3.jpg" alt="Florence and The Machine">
@@ -76,73 +81,122 @@
           </div>
         </div>
 
+
+      <!-- top chart section -->
         <div class="top_chart">
-          <h2>Your Top Charts</h2>
+          <div class="h_two">Your Top Charts</div>
           <div class="item">
-            <img class="tc_img" src="2.jpg" alt="Florence and The Machine">
+            <img class="tc_img" src="12.jpg" alt="Florence and The Machine">
             <div class="tc_info">
-              <h4>Hello</h4>
-              <h4>Adele</h4>
-              <h4>21</h4>
+              <div class="h_five">#1</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
             </div>
           </div>
           <div class="item">
             <img class="tc_img" src="8.jpg" alt="Florence and The Machine">
             <div class="tc_info">
-              <h4>Hello</h4>
-              <h4>Adele</h4>
-              <h4>21</h4>
+              <div class="h_five">#2</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
             </div>
           </div>
           <div class="item">
             <img class="tc_img" src="4.jpg" alt="Florence and The Machine">
             <div class="tc_info">
-              <h4>Hello</h4>
-              <h4>Adele</h4>
-              <h4>21</h4>
+              <div class="h_five">#3</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
             </div>
           </div>
           <div class="item">
             <img class="tc_img" src="9.jpg" alt="Florence and The Machine">
             <div class="tc_info">
-              <h4>Hello</h4>
-              <h4>Adele</h4>
-              <h4>21</h4>
+              <div class="h_five">#4</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
             </div>
           </div>
           <div class="item">
             <img class="tc_img" src="10.jpg" alt="Florence and The Machine">
             <div class="tc_info">
-              <h4>Hello</h4>
-              <h4>Adele</h4>
-              <h4>21</h4>
+              <div class="h_five">#5</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="tc_img" src="14.jpg" alt="Florence and The Machine">
+            <div class="tc_info">
+              <div class="h_five">#6</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="tc_img" src="6.jpg" alt="Florence and The Machine">
+            <div class="tc_info">
+              <div class="h_five">#7</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="tc_img" src="8.jpg" alt="Florence and The Machine">
+            <div class="tc_info">
+              <div class="h_five">#8</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
+            </div>
+          </div>
+          <div class="item">
+            <img class="tc_img" src="10.jpg" alt="Florence and The Machine">
+            <div class="tc_info">
+              <div class="h_five">#9</div>
+              <div class="h_four">Hello</div>
+              <div class="h_four">Adele</div>
+              <div class="h_four">21</div>
             </div>
           </div>
         </div>
 
+
+      <!-- news feed section -->
         <div class="news_feed">
-          <h2>News Feed</h2>
+          <div class="h_two">News Feed</div>
           <div class="story">
-            <img class="nf_img" src="1.jpg" alt="Florence and The Machine">
-            <h4>Caption Caption Caption Caption Caption Caption</h4>
+            <img class="nf_img" src="n1.jpg" alt="Florence and The Machine">
+            <div class="nf_cap h_four">I just got bootstrap to work woohoo</div>
           </div>
           <div class="story">
-            <img class="nf_img" src="1.jpg" alt="Florence and The Machine">
-            <h4>Caption Caption Caption Caption Caption Caption</h4>
+            <img class="nf_img" src="n2.jpg" alt="Florence and The Machine">
+            <div class="nf_cap h_four">I just got bootstrap to work woohoo</div>
           </div>
           <div class="story">
-            <img class="nf_img" src="1.jpg" alt="Florence and The Machine">
-            <h4>Caption Caption Caption Caption Caption Caption</h4>
+            <img class="nf_img" src="n3.jpg" alt="Florence and The Machine">
+            <div class="nf_cap h_four">I just got bootstrap to work woohoo</div>
           </div>
           <div class="story">
-            <img class="nf_img" src="1.jpg" alt="Florence and The Machine">
-            <h4>Caption Caption Caption Caption Caption Caption</h4>
+            <img class="nf_img" src="n4.jpg" alt="Florence and The Machine">
+            <div class="nf_cap h_four">I just got bootstrap to work woohoo</div>
           </div>
           <div class="story">
-            <img class="nf_img" src="1.jpg" alt="Florence and The Machine">
-            <h4>Caption Caption Caption Caption Caption Caption</h4>
+            <img class="nf_img" src="n1.jpg" alt="Florence and The Machine">
+            <div class="nf_cap h_four">I just got bootstrap to work woohoo</div>
           </div>
         </div>
+
+
+
+
 
         <div class="footer">
           <div class="">
@@ -155,5 +209,6 @@
     <!-- <script src="index.js"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     </body>
 </html>
