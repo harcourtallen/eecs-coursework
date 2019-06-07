@@ -1,0 +1,354 @@
+.h_title {
+  font-family: 'Dosis', sans-serif;
+  font-size: 150px;
+  font-style: italic;
+  text-transform: uppercase;
+  color: white;
+  text-shadow: 3px 3px 8px gray;
+  margin: 0;
+  padding: 0;
+}
+.h_one {
+  font-family: 'Dosis', sans-serif;
+  font-size: 150px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+  padding: 0;
+
+}
+.h_two {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.h_three {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+.h_four {
+  font-family: 'Dosis', sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.h_five {
+  font-family: 'Dosis', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.h_six {
+  font-family: 'Dosis', sans-serif;
+  font-size: 18px;
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.menu {
+  padding: 10px;
+  background-color: #696969;
+  float: right;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  width: 100%;
+  text-align: right;
+  position: relative;
+  z-index: 200;
+}
+
+.logo {
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 18px;
+  font-style: italic;
+  color: white;
+  text-shadow: 3px 3px 8px gray;
+  margin: 0;
+  padding: 0;
+}
+
+.titl {
+  text-align: center;
+  padding: 30px;
+  padding-top: 200px;
+}
+
+.caro_img {
+  width: 30%;
+  height: 30%;
+  opacity: .8;
+}
+
+.full {
+  background-color: #2e2e2e;
+}
+
+.contain_in {
+  margin-left: 3%;
+  margin-right: 3%;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "a a"
+    "b c"
+  ;
+}
+
+.scrolling {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+/* width */
+.scrolling::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+.scrolling::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+.scrolling::-webkit-scrollbar-thumb {
+  background: #2e2e2e;
+  border-radius: 10px;
+}
+
+.new_rel {
+  grid-area: a;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.nr_pix {
+  margin-top: 10px;
+}
+
+.nr_img {
+  width: 140px;
+  height: 140px;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.top_chart {
+  grid-area: b;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+
+.tc_img {
+  width: 50%;
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.tc_info {
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 10px;
+}
+
+.news_feed {
+  grid-area: c;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.story {
+  margin-top: 10px;
+}
+
+.nf_img {
+  width: 95%;
+  height: 10%;
+  margin: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+}
+
+.nf_cap {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.footer {
+
+}
+
+.contain_mu1 {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "aa bb cc"
+  ;
+}
+.name {
+  grid-area: aa;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+.view1 {
+  grid-area: bb;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+.view2 {
+  grid-area: cc;
+  padding: 15px;
+  margin: 15px;
+  margin-bottom: 0px;
+}
+
+.selected {
+  padding: 15px;
+  background-color: #92064c;
+  color: white;
+  border-radius: 5px;
+}
+
+.contain_mu {
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "dd dd"
+    "ee ee"
+    "ff ff"
+  ;
+}
+
+.popular {
+  grid-area: dd;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  }
+
+.suggest {
+  grid-area: ee;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  }
+
+.genre {
+  grid-area: ff;
+  padding: 15px;
+  margin: 15px;
+  background-color: #696969;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  border-radius: 5px;
+  }
+
+  .contain_ne {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "aaa"
+    ;
+  }
+  .newspage_img {
+    width: 95%;
+    height: auto;
+    margin: 15px;
+    display: inline-block;
+  }
+
+  .feed {
+    grid-area: aaa;
+    padding: 15px;
+    margin: 15px;
+    background-color: #696969;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+
+  }
+
+  .story_ne {
+    width: 49%;
+    display: inline-block;
+  }
+
+  .search input {
+    float: left;
+    width: 70%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0 solid black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: #f1f1f1;
+    color: black;
+  }
+
+  .search button {
+    float: left;
+    width: 10%;
+    height: 60px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 0 solid black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    background: #92064c;
+    color: white;
+  }
